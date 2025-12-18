@@ -2,5 +2,6 @@ spring:
   application:
     name: pdf-wkr
   config:
-    import: ${CONFIG_SERVER_URL} # This is the new way
+    # Adicione o prefixo configserver: antes da variável
+    import: "configserver:${CONFIG_SERVER_URL}"
     fail-fast: true
