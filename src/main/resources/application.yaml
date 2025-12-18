@@ -2,5 +2,5 @@ spring:
   application:
     name: pdf-wkr
   config:
-    import: ${config_serve_url} # This is the new way
+    import: ${CONFIG_SERVER_URL} # This is the new way
     fail-fast: true
